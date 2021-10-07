@@ -15,7 +15,7 @@ public class HelloWorldController {
 	// /hello-world
 	@GetMapping(path="/hello-world")
 	public String helloWorld() {
-		return "Hola Gaspar, PAPÁ, ÁMBAR, TAÍNA, MAMÁ";
+		return "Holaa Gaspar, PAPÁ, ÁMBAR, TAÍNA, MAMÁ";
 	}
 	
 	// /hello-world-bean
