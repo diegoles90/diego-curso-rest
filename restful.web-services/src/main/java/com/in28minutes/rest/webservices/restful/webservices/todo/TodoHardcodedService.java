@@ -10,12 +10,12 @@ import org.springframework.stereotype.Service;
 public class TodoHardcodedService {
 	
 	private static List<Todo> todos = new ArrayList<>();
-	private static int idCounter = 0;
+	private static long idCounter = 0;
 	
 	static {
 		todos.add(new Todo(++idCounter, "in 28 minutes", "Diego112", new Date(), false));
 		todos.add(new Todo(++idCounter, "in 28 minutes", "Ambar", new Date(), false));
-		todos.add(new Todo(++idCounter, "in 28 minutes", "Gaspar", new Date(), false));
+		todos.add(new Todo(++idCounter, "in 28 minutes", "Gaspar1", new Date(), false));
 		todos.add(new Todo(++idCounter, "in 28 minutes", "Taína", new Date(), false));
 	}
 
